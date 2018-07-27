@@ -1,0 +1,362 @@
+{
+  "declaration": {
+    "attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "elements": [
+    {
+      "type": "element",
+      "name": "package",
+      "attributes": {
+        "xmlns": "http://www.idpf.org/2007/opf",
+        "version": "3.0",
+        "unique-identifier": "id"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "metadata",
+          "attributes": {
+            "xmlns:dc": "http://purl.org/dc/elements/1.1/"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "dc:identifier",
+              "attributes": {
+                "id": "id"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "http://www.gutenberg.org/ebooks/25545"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "property": "dcterms:modified"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "2010-02-17T04:39:13Z"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:title",
+              "attributes": {
+                "id": "t1"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Children's Literature"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "refines": "#t1",
+                "property": "title-type"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "main"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "refines": "#t1",
+                "property": "display-seq"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:title",
+              "attributes": {
+                "id": "t2"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "A Textbook of Sources for Teachers and Teacher-Training Classes"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "refines": "#t2",
+                "property": "title-type"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "subtitle"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "refines": "#t2",
+                "property": "display-seq"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:creator",
+              "attributes": {
+                "id": "curry"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Charles Madison Curry"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "property": "file-as",
+                "refines": "#curry"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Curry, Charles Madison"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:creator",
+              "attributes": {
+                "id": "clippinger"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Erle Elsworth Clippinger"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "meta",
+              "attributes": {
+                "property": "file-as",
+                "refines": "#clippinger"
+              },
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Clippinger, Erle Elsworth"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:language",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "en"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:date",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "2008-05-20"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:subject",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Children -- Books and reading"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:subject",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Children's literature -- Study and teaching"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:source",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "http://www.gutenberg.org/files/25545/25545-h/25545-h.htm"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "dc:rights",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Public domain in the USA."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "manifest",
+          "elements": [
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "images/cover.png",
+                "id": "cover-img",
+                "media-type": "image/png",
+                "properties": "cover-image"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "css/epub.css",
+                "id": "css01",
+                "media-type": "text/css"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "css/nav.css",
+                "id": "css02",
+                "media-type": "text/css"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "js/bundle.js",
+                "id": "js01",
+                "media-type": "text/javascript"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "cover.xhtml",
+                "id": "cover",
+                "media-type": "application/xhtml+xml"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "s04.xhtml",
+                "id": "s04",
+                "media-type": "application/xhtml+xml"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "nav.xhtml",
+                "id": "nav",
+                "media-type": "application/xhtml+xml",
+                "properties": "nav scripted"
+              }
+            },
+            {
+              "type": "element",
+              "name": "item",
+              "attributes": {
+                "href": "toc.ncx",
+                "id": "ncx",
+                "media-type": "application/x-dtbncx+xml"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "spine",
+          "attributes": {
+            "toc": "ncx"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "itemref",
+              "attributes": {
+                "idref": "cover"
+              }
+            },
+            {
+              "type": "element",
+              "name": "itemref",
+              "attributes": {
+                "idref": "nav"
+              }
+            },
+            {
+              "type": "element",
+              "name": "itemref",
+              "attributes": {
+                "idref": "s04"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

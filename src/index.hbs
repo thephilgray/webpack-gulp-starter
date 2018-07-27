@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" epub:prefix="z3998: http://www.daisy.org/z3998/2012/vocab/structure/#">
+
+<head>
+    <title>
+        {{htmlWebpackPlugin.options.title}}
+    </title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    {{#each htmlWebpackPlugin.options.pages}} {{> partials/page id=id title=title}} {{/each}}
+</body>
+
+</html>
